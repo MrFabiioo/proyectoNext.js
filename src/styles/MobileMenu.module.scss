@@ -1,0 +1,41 @@
+@import 'vars';
+
+.MobileMenu{
+    padding: 24px;
+    position: absolute;
+    background-color: white;
+    top: 61px;
+    left: 0;
+    
+}
+.MobileMenu a{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+
+}
+.MobileMenu ul{
+    padding: 0;
+    margin: 24px 0 0;
+    list-style: none;
+}
+.MobileMenu ul:nth-child(1){
+    border-bottom: 1px solid $--very-light-pink;
+}
+.MobileMenu ul li{
+    margin-bottom: 24px;
+}
+.email{
+    font-size: var(--sm);
+    font-weight: 300 !important;   
+}
+.sing-out{
+    color: var(--hospital-green) !important;
+    font-size: var(--sm);
+}
+.mobile-menu ul:nth-child(3){
+    margin-top: 70px;
+}
+.mobile-menu ul:nth-child(3) li{
+    margin: 0;
+}
